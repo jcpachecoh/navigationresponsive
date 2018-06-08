@@ -1,0 +1,46 @@
+body
+  background-color: $white
+  margin: 0
+  padding: 0
+
+  @media only screen and (max-width: $break-small)
+    font-size: 0
+
+*
+    margin: 0
+    padding: 0
+    +boxIn()
+
+.bg
+    background-image: url('../images/background-image.jpg')
+    height: 100vh
+    width: auto
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+    vertical-align: center
+
+    .container
+        width: 80%
+        margin: 0 auto
+        height: 100%
+        padding-right: 15px
+        padding-left: 15px
+        margin-right: auto
+        margin-left: auto
+
+        .banner
+            height: 100%
+            vertical-align: center
+            +transform(translateY(30%))
+
+        @media only screen and (max-width: $break-small)
+            display: none
+
+    h1
+        font: 20vmin/1 HUGEAvantGardeBold
+        letter-spacing: -0.06em
+        text-align: center
+        color: $white
+
+

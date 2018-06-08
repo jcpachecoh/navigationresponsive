@@ -1,0 +1,37 @@
+.header
+  font-size: 0
+  left: 0
+  top: 0
+  background-color: $magenta
+  position: relative
+  width: 100%
+
+  > *
+      display: inline-block
+      vertical-align: middle
+
+  .logo
+    font: 24px HUGEAvantGardeBold
+    display: block
+    color: $white
+    display: inline-block
+    padding: 24px
+    letter-spacing: -0.06em
+    line-height: 1
+
+  .close-icon
+    display: none
+
+  @media only screen and (max-width: $break-small)
+    vertical-align: top
+    display: inline-block
+
+    .logo
+      display: none
+
+    .close-icon
+      float: right
+      display: block
+
+
+

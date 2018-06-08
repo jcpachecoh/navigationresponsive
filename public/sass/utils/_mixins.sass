@@ -1,0 +1,62 @@
+=transition ($transition)
+	-webkit-transition: $transition
+	-moz-transition: $transition
+	transition: $transition
+
+=transform ($transform)
+	-webkit-transform: $transform
+	-moz-transform: $transform
+	-ms-transform: $transform
+	-o-transform: $transform
+	transform: $transform
+
+=bRadius($radius)
+	-webkit-border-radius: $radius
+	-moz-border-radius: $radius
+	-ms-border-radius: $radius
+	border-radius: $radius
+
+=hide ()
+	display: none
+	visibility: hidden
+
+=show ()
+	display: block
+	visibility: visible
+
+=inline ($inline)
+	display: inline-block
+	font-size: 14px
+	vertical-align: $inline
+
+=boxIn ()
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	-ms-box-sizing: border-box
+	-o-box-sizing: border-box
+	box-sizing: border-box
+
+=boxOut ()
+	-webkit-box-sizing: content-box
+	-moz-box-sizing: content-box
+	-ms-box-sizing: content-box
+	-o-box-sizing: content-box
+	box-sizing: content-box
+
+=clean ()
+	margin: 0
+	padding: 0
+
+=hidePop ()
+	left: 50%
+	max-height: 0
+	max-width: 0
+	opacity: 0
+	top: 50%
+
+=showPop ()
+	left: 0
+	max-height: 100%
+	max-width: 100%
+	opacity: 1
+	top: 0

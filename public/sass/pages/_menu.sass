@@ -1,0 +1,95 @@
+.topnav
+  list-style-type: none
+  text-align-last: left
+  padding: 0 24px
+
+  .icon
+    display: none
+
+  li
+    display: inline-block
+    position: relative
+
+    a
+      font: 20px HUGEAvantGardeBold
+      float: left
+      display: block
+      color: $white
+      text-align: center
+      text-decoration: none
+      padding: 24px 24px
+
+      &:hover
+        background-color: $white
+        color: $magenta
+
+    &:hover
+      .subnav
+        display: block
+
+    .subnav
+      display: none
+      position: absolute
+      background-color: $white
+      min-width: 200px
+      margin: 73px 0
+      z-index: 99
+
+      a
+        font: 16px Galaxie
+        color: $black
+        padding: 12px 16px
+        text-decoration: none
+        display: block
+        min-width: 200px
+
+        &:hover
+          background-color: $light-gray
+          color: $magenta
+          width: 100%
+
+  @media only screen and (max-width: $break-small)
+    width: 100%
+
+    li
+      display: none
+
+      &.dropdown
+        &:after
+          content: url('../../images/arrow_down.png')
+          position: absolute
+          right: 0
+          top: 20px
+
+    .icon
+      float: left
+      display: block
+
+  @media only screen and (max-width: $break-small)
+    &.responsive
+      position: relative
+      background-color: $white
+
+      .icon
+        display: none
+
+      li
+        float: none
+        display: block
+        text-align: left
+        width: 100%
+
+        a
+          color: $black
+          float: none
+
+        .subnav
+          position: relative
+          background-color: $white
+          margin: 0
+          padding: 0 7px
+          box-shadow: 0
+
+
+
+
