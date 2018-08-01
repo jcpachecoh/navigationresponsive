@@ -1,7 +1,28 @@
 {
-  "name": "NavExercise",
+  "name": "NavExercise-React-app",
   "description": "Exercise for candidates to complete where they will build a responsive nav layout",
   "version": "0.1.1",
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/empty-module.js",
+      "\\.(css|less)$": "<rootDir>/empty-module.js"
+    },
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "setupTestFrameworkScriptFile": "<rootDir>/localStorageMock.js"
+  },
+  "moduleFileExtensions": [
+    "ts",
+    "tsx",
+    "js"
+  ],
   "authors": [
     "Wes Hatch <whatch@hugeinc.com>",
     "Karl Stanton <kstanton@hugeinc.com>"
@@ -13,16 +34,51 @@
   },
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./bin/www"
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "eject": "react-scripts-ts eject"
   },
   "dependencies": {
+    "@types/react-redux": "^6.0.0",
+    "@types/webfontloader": "^1.6.29",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
     "express": "~4.2.0",
-    "morgan": "~1.0.0"
+    "morgan": "~1.0.0",
+    "path": "^0.12.7",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts-ts": "^2.16.0",
+    "styled-components": "^3.3.3",
+    "webfontloader": "^1.6.28",
+    "webpack-dev-server": "^3.1.5"
   },
   "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "@types/node": "^10.1.2",
+    "@types/react": "^16.4.7",
+    "@types/react-dom": "^16.0.6",
+    "awesome-typescript-loader": "^5.2.0",
+    "css-loader": "^1.0.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
     "gulp": "^3.9.1",
     "gulp-sass": "^4.0.1",
-    "gulp-sass-lint": "^1.3.4"
+    "gulp-sass-lint": "^1.3.4",
+    "html-webpack-plugin": "^3.2.0",
+    "less-loader": "^4.1.0",
+    "source-map-loader": "^0.2.3",
+    "style-loader": "^0.21.0",
+    "ts-loader": "^4.4.2",
+    "typescript": "^2.9.2",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-middleware": "^3.1.3",
+    "webpack-hot-middleware": "^2.22.3"
   }
 }

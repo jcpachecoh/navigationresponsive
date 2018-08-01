@@ -3,14 +3,14 @@ var gulp = require('gulp'),
     sass = require('gulp-sass');
 
 gulp.task('sass', function() {
-    gulp.src('public/sass/**/*.s+(a|c)ss')
+    gulp.src('src/sass/**/*.s+(a|c)ss')
         .pipe(sass().on('error', sass.logError))
-        .pipe(gulp.dest('public/styles/'));
+        .pipe(gulp.dest('public/css/'));
 });
 
 gulp.task('default', ['sass'], function() {
-    gulp.watch('public/sass/**/*.s+(a|c)ss', ['sass']);
-    return gulp.src('public/sass/**/*.s+(a|c)ss')
+    gulp.watch('src/sass/**/*.s+(a|c)ss', ['sass']);
+    return gulp.src('src/sass/**/*.s+(a|c)ss')
         .pipe(sassLint())
         .pipe(sassLint.format())
         .pipe(sassLint.failOnError());
