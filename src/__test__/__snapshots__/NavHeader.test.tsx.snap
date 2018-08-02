@@ -1,0 +1,4734 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavHeader renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <NavHeader
+    closeNav={[MockFunction]}
+    openNav={[MockFunction]}
+    styleHeaderMobile={
+      Object {
+        "display": "none",
+      }
+    }
+    styleMySideBar={
+      Object {
+        "width": "100%",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="header-mobile"
+          id="header-mobile"
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+        >
+          <div
+            className="logo"
+          >
+            HUGE
+          </div>
+          <a
+            className="close-icon"
+            href="javascript:void(0);"
+            onClick={[Function]}
+          >
+            <i
+              className="fa fa-times"
+            />
+          </a>
+        </div>,
+        <div
+          className="header"
+          id="mySidebar"
+        >
+          <div
+            className="logo"
+          >
+            HUGE
+          </div>
+          <nav
+            className="topnav"
+            id="nav"
+          >
+            <ul>
+              <li
+                className="icon"
+              >
+                <a
+                  href="javascript:void(0);"
+                  onClick={[Function]}
+                >
+                  <i
+                    className="fa fa-bars"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  className="nav-menu"
+                  href="#home"
+                >
+                  Work
+                </a>
+              </li>
+              <li
+                className="dropdown"
+              >
+                <a
+                  href="#home"
+                >
+                  About
+                </a>
+                <ul
+                  className="subnav"
+                >
+                  <li>
+                    <a
+                      href="#"
+                    >
+                      What we do
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                    >
+                      How we work
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                    >
+                      Leadership
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li
+                className="dropdown"
+              >
+                <a
+                  href="#home"
+                >
+                  Carrers
+                </a>
+                <ul
+                  className="subnav"
+                >
+                  <li>
+                    <a
+                      href="#"
+                    >
+                      Client Services
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                    >
+                      Creative
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                    >
+                      Motion & Media
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                    >
+                      Operations
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                    >
+                      People
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                    >
+                      Strategy
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                    >
+                      Technology
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                    >
+                      UX & Product Design
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li
+                className="dropdown"
+              >
+                <a
+                  href="#home"
+                >
+                  Ideas
+                </a>
+                <ul
+                  className="subnav"
+                >
+                  <li>
+                    <a
+                      href="#"
+                    >
+                      Reports
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                    >
+                      Perspectives
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                    >
+                      Books
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                    >
+                      Videos
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a
+                  href="#home"
+                >
+                  News
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#home"
+                >
+                  Events
+                </a>
+              </li>
+              <li
+                className="dropdown"
+              >
+                <a
+                  href="#home"
+                >
+                  Contacts
+                </a>
+                <ul
+                  className="subnav"
+                >
+                  <li>
+                    <a
+                      href="#"
+                    >
+                      Atlanta
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                    >
+                      Brooklyn
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                    >
+                      DC
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                    >
+                      London
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                    >
+                      Los Angeles
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                    >
+                      Oakland
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                    >
+                      Toronto
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="logo"
+            >
+              HUGE
+            </div>,
+            <a
+              className="close-icon"
+              href="javascript:void(0);"
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-times"
+              />
+            </a>,
+          ],
+          "className": "header-mobile",
+          "id": "header-mobile",
+          "style": Object {
+            "display": "none",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "HUGE",
+              "className": "logo",
+            },
+            "ref": null,
+            "rendered": "HUGE",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <i
+                className="fa fa-times"
+              />,
+              "className": "close-icon",
+              "href": "javascript:void(0);",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "fa fa-times",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+            "type": "a",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="logo"
+            >
+              HUGE
+            </div>,
+            <nav
+              className="topnav"
+              id="nav"
+            >
+              <ul>
+                <li
+                  className="icon"
+                >
+                  <a
+                    href="javascript:void(0);"
+                    onClick={[Function]}
+                  >
+                    <i
+                      className="fa fa-bars"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="nav-menu"
+                    href="#home"
+                  >
+                    Work
+                  </a>
+                </li>
+                <li
+                  className="dropdown"
+                >
+                  <a
+                    href="#home"
+                  >
+                    About
+                  </a>
+                  <ul
+                    className="subnav"
+                  >
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        What we do
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        How we work
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Leadership
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li
+                  className="dropdown"
+                >
+                  <a
+                    href="#home"
+                  >
+                    Carrers
+                  </a>
+                  <ul
+                    className="subnav"
+                  >
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Client Services
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Creative
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Motion & Media
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Operations
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        People
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Strategy
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Technology
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        UX & Product Design
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li
+                  className="dropdown"
+                >
+                  <a
+                    href="#home"
+                  >
+                    Ideas
+                  </a>
+                  <ul
+                    className="subnav"
+                  >
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Reports
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Perspectives
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Books
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Videos
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a
+                    href="#home"
+                  >
+                    News
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#home"
+                  >
+                    Events
+                  </a>
+                </li>
+                <li
+                  className="dropdown"
+                >
+                  <a
+                    href="#home"
+                  >
+                    Contacts
+                  </a>
+                  <ul
+                    className="subnav"
+                  >
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Atlanta
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Brooklyn
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        DC
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        London
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Los Angeles
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Oakland
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Toronto
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>,
+          ],
+          "className": "header",
+          "id": "mySidebar",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "HUGE",
+              "className": "logo",
+            },
+            "ref": null,
+            "rendered": "HUGE",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <ul>
+                <li
+                  className="icon"
+                >
+                  <a
+                    href="javascript:void(0);"
+                    onClick={[Function]}
+                  >
+                    <i
+                      className="fa fa-bars"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="nav-menu"
+                    href="#home"
+                  >
+                    Work
+                  </a>
+                </li>
+                <li
+                  className="dropdown"
+                >
+                  <a
+                    href="#home"
+                  >
+                    About
+                  </a>
+                  <ul
+                    className="subnav"
+                  >
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        What we do
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        How we work
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Leadership
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li
+                  className="dropdown"
+                >
+                  <a
+                    href="#home"
+                  >
+                    Carrers
+                  </a>
+                  <ul
+                    className="subnav"
+                  >
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Client Services
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Creative
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Motion & Media
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Operations
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        People
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Strategy
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Technology
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        UX & Product Design
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li
+                  className="dropdown"
+                >
+                  <a
+                    href="#home"
+                  >
+                    Ideas
+                  </a>
+                  <ul
+                    className="subnav"
+                  >
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Reports
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Perspectives
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Books
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Videos
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a
+                    href="#home"
+                  >
+                    News
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#home"
+                  >
+                    Events
+                  </a>
+                </li>
+                <li
+                  className="dropdown"
+                >
+                  <a
+                    href="#home"
+                  >
+                    Contacts
+                  </a>
+                  <ul
+                    className="subnav"
+                  >
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Atlanta
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Brooklyn
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        DC
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        London
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Los Angeles
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Oakland
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Toronto
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>,
+              "className": "topnav",
+              "id": "nav",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <li
+                    className="icon"
+                  >
+                    <a
+                      href="javascript:void(0);"
+                      onClick={[Function]}
+                    >
+                      <i
+                        className="fa fa-bars"
+                      />
+                    </a>
+                  </li>,
+                  <li>
+                    <a
+                      className="nav-menu"
+                      href="#home"
+                    >
+                      Work
+                    </a>
+                  </li>,
+                  <li
+                    className="dropdown"
+                  >
+                    <a
+                      href="#home"
+                    >
+                      About
+                    </a>
+                    <ul
+                      className="subnav"
+                    >
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          What we do
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          How we work
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Leadership
+                        </a>
+                      </li>
+                    </ul>
+                  </li>,
+                  <li
+                    className="dropdown"
+                  >
+                    <a
+                      href="#home"
+                    >
+                      Carrers
+                    </a>
+                    <ul
+                      className="subnav"
+                    >
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Client Services
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Creative
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Motion & Media
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Operations
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          People
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Strategy
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Technology
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          UX & Product Design
+                        </a>
+                      </li>
+                    </ul>
+                  </li>,
+                  <li
+                    className="dropdown"
+                  >
+                    <a
+                      href="#home"
+                    >
+                      Ideas
+                    </a>
+                    <ul
+                      className="subnav"
+                    >
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Reports
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Perspectives
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Books
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Videos
+                        </a>
+                      </li>
+                    </ul>
+                  </li>,
+                  <li>
+                    <a
+                      href="#home"
+                    >
+                      News
+                    </a>
+                  </li>,
+                  <li>
+                    <a
+                      href="#home"
+                    >
+                      Events
+                    </a>
+                  </li>,
+                  <li
+                    className="dropdown"
+                  >
+                    <a
+                      href="#home"
+                    >
+                      Contacts
+                    </a>
+                    <ul
+                      className="subnav"
+                    >
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Atlanta
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Brooklyn
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          DC
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          London
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Los Angeles
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Oakland
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Toronto
+                        </a>
+                      </li>
+                    </ul>
+                  </li>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <a
+                      href="javascript:void(0);"
+                      onClick={[Function]}
+                    >
+                      <i
+                        className="fa fa-bars"
+                      />
+                    </a>,
+                    "className": "icon",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <i
+                        className="fa fa-bars"
+                      />,
+                      "href": "javascript:void(0);",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "fa fa-bars",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "i",
+                    },
+                    "type": "a",
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <a
+                      className="nav-menu"
+                      href="#home"
+                    >
+                      Work
+                    </a>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Work",
+                      "className": "nav-menu",
+                      "href": "#home",
+                    },
+                    "ref": null,
+                    "rendered": "Work",
+                    "type": "a",
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <a
+                        href="#home"
+                      >
+                        About
+                      </a>,
+                      <ul
+                        className="subnav"
+                      >
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            What we do
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            How we work
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Leadership
+                          </a>
+                        </li>
+                      </ul>,
+                    ],
+                    "className": "dropdown",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "About",
+                        "href": "#home",
+                      },
+                      "ref": null,
+                      "rendered": "About",
+                      "type": "a",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              What we do
+                            </a>
+                          </li>,
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              How we work
+                            </a>
+                          </li>,
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Leadership
+                            </a>
+                          </li>,
+                        ],
+                        "className": "subnav",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <a
+                              href="#"
+                            >
+                              What we do
+                            </a>,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "What we do",
+                              "href": "#",
+                            },
+                            "ref": null,
+                            "rendered": "What we do",
+                            "type": "a",
+                          },
+                          "type": "li",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <a
+                              href="#"
+                            >
+                              How we work
+                            </a>,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "How we work",
+                              "href": "#",
+                            },
+                            "ref": null,
+                            "rendered": "How we work",
+                            "type": "a",
+                          },
+                          "type": "li",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <a
+                              href="#"
+                            >
+                              Leadership
+                            </a>,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Leadership",
+                              "href": "#",
+                            },
+                            "ref": null,
+                            "rendered": "Leadership",
+                            "type": "a",
+                          },
+                          "type": "li",
+                        },
+                      ],
+                      "type": "ul",
+                    },
+                  ],
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <a
+                        href="#home"
+                      >
+                        Carrers
+                      </a>,
+                      <ul
+                        className="subnav"
+                      >
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Client Services
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Creative
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Motion & Media
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Operations
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            People
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Strategy
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Technology
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            UX & Product Design
+                          </a>
+                        </li>
+                      </ul>,
+                    ],
+                    "className": "dropdown",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Carrers",
+                        "href": "#home",
+                      },
+                      "ref": null,
+                      "rendered": "Carrers",
+                      "type": "a",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Client Services
+                            </a>
+                          </li>,
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Creative
+                            </a>
+                          </li>,
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Motion & Media
+                            </a>
+                          </li>,
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Operations
+                            </a>
+                          </li>,
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              People
+                            </a>
+                          </li>,
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Strategy
+                            </a>
+                          </li>,
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Technology
+                            </a>
+                          </li>,
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              UX & Product Design
+                            </a>
+                          </li>,
+                        ],
+                        "className": "subnav",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <a
+                              href="#"
+                            >
+                              Client Services
+                            </a>,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Client Services",
+                              "href": "#",
+                            },
+                            "ref": null,
+                            "rendered": "Client Services",
+                            "type": "a",
+                          },
+                          "type": "li",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <a
+                              href="#"
+                            >
+                              Creative
+                            </a>,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Creative",
+                              "href": "#",
+                            },
+                            "ref": null,
+                            "rendered": "Creative",
+                            "type": "a",
+                          },
+                          "type": "li",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <a
+                              href="#"
+                            >
+                              Motion & Media
+                            </a>,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Motion & Media",
+                              "href": "#",
+                            },
+                            "ref": null,
+                            "rendered": "Motion & Media",
+                            "type": "a",
+                          },
+                          "type": "li",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <a
+                              href="#"
+                            >
+                              Operations
+                            </a>,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Operations",
+                              "href": "#",
+                            },
+                            "ref": null,
+                            "rendered": "Operations",
+                            "type": "a",
+                          },
+                          "type": "li",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <a
+                              href="#"
+                            >
+                              People
+                            </a>,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "People",
+                              "href": "#",
+                            },
+                            "ref": null,
+                            "rendered": "People",
+                            "type": "a",
+                          },
+                          "type": "li",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <a
+                              href="#"
+                            >
+                              Strategy
+                            </a>,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Strategy",
+                              "href": "#",
+                            },
+                            "ref": null,
+                            "rendered": "Strategy",
+                            "type": "a",
+                          },
+                          "type": "li",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <a
+                              href="#"
+                            >
+                              Technology
+                            </a>,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Technology",
+                              "href": "#",
+                            },
+                            "ref": null,
+                            "rendered": "Technology",
+                            "type": "a",
+                          },
+                          "type": "li",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <a
+                              href="#"
+                            >
+                              UX & Product Design
+                            </a>,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "UX & Product Design",
+                              "href": "#",
+                            },
+                            "ref": null,
+                            "rendered": "UX & Product Design",
+                            "type": "a",
+                          },
+                          "type": "li",
+                        },
+                      ],
+                      "type": "ul",
+                    },
+                  ],
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <a
+                        href="#home"
+                      >
+                        Ideas
+                      </a>,
+                      <ul
+                        className="subnav"
+                      >
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Reports
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Perspectives
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Books
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Videos
+                          </a>
+                        </li>
+                      </ul>,
+                    ],
+                    "className": "dropdown",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Ideas",
+                        "href": "#home",
+                      },
+                      "ref": null,
+                      "rendered": "Ideas",
+                      "type": "a",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Reports
+                            </a>
+                          </li>,
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Perspectives
+                            </a>
+                          </li>,
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Books
+                            </a>
+                          </li>,
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Videos
+                            </a>
+                          </li>,
+                        ],
+                        "className": "subnav",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <a
+                              href="#"
+                            >
+                              Reports
+                            </a>,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Reports",
+                              "href": "#",
+                            },
+                            "ref": null,
+                            "rendered": "Reports",
+                            "type": "a",
+                          },
+                          "type": "li",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <a
+                              href="#"
+                            >
+                              Perspectives
+                            </a>,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Perspectives",
+                              "href": "#",
+                            },
+                            "ref": null,
+                            "rendered": "Perspectives",
+                            "type": "a",
+                          },
+                          "type": "li",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <a
+                              href="#"
+                            >
+                              Books
+                            </a>,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Books",
+                              "href": "#",
+                            },
+                            "ref": null,
+                            "rendered": "Books",
+                            "type": "a",
+                          },
+                          "type": "li",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <a
+                              href="#"
+                            >
+                              Videos
+                            </a>,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Videos",
+                              "href": "#",
+                            },
+                            "ref": null,
+                            "rendered": "Videos",
+                            "type": "a",
+                          },
+                          "type": "li",
+                        },
+                      ],
+                      "type": "ul",
+                    },
+                  ],
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <a
+                      href="#home"
+                    >
+                      News
+                    </a>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "News",
+                      "href": "#home",
+                    },
+                    "ref": null,
+                    "rendered": "News",
+                    "type": "a",
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <a
+                      href="#home"
+                    >
+                      Events
+                    </a>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Events",
+                      "href": "#home",
+                    },
+                    "ref": null,
+                    "rendered": "Events",
+                    "type": "a",
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <a
+                        href="#home"
+                      >
+                        Contacts
+                      </a>,
+                      <ul
+                        className="subnav"
+                      >
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Atlanta
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Brooklyn
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            DC
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            London
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Los Angeles
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Oakland
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Toronto
+                          </a>
+                        </li>
+                      </ul>,
+                    ],
+                    "className": "dropdown",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Contacts",
+                        "href": "#home",
+                      },
+                      "ref": null,
+                      "rendered": "Contacts",
+                      "type": "a",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Atlanta
+                            </a>
+                          </li>,
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Brooklyn
+                            </a>
+                          </li>,
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              DC
+                            </a>
+                          </li>,
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              London
+                            </a>
+                          </li>,
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Los Angeles
+                            </a>
+                          </li>,
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Oakland
+                            </a>
+                          </li>,
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Toronto
+                            </a>
+                          </li>,
+                        ],
+                        "className": "subnav",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <a
+                              href="#"
+                            >
+                              Atlanta
+                            </a>,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Atlanta",
+                              "href": "#",
+                            },
+                            "ref": null,
+                            "rendered": "Atlanta",
+                            "type": "a",
+                          },
+                          "type": "li",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <a
+                              href="#"
+                            >
+                              Brooklyn
+                            </a>,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Brooklyn",
+                              "href": "#",
+                            },
+                            "ref": null,
+                            "rendered": "Brooklyn",
+                            "type": "a",
+                          },
+                          "type": "li",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <a
+                              href="#"
+                            >
+                              DC
+                            </a>,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "DC",
+                              "href": "#",
+                            },
+                            "ref": null,
+                            "rendered": "DC",
+                            "type": "a",
+                          },
+                          "type": "li",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <a
+                              href="#"
+                            >
+                              London
+                            </a>,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "London",
+                              "href": "#",
+                            },
+                            "ref": null,
+                            "rendered": "London",
+                            "type": "a",
+                          },
+                          "type": "li",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <a
+                              href="#"
+                            >
+                              Los Angeles
+                            </a>,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Los Angeles",
+                              "href": "#",
+                            },
+                            "ref": null,
+                            "rendered": "Los Angeles",
+                            "type": "a",
+                          },
+                          "type": "li",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <a
+                              href="#"
+                            >
+                              Oakland
+                            </a>,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Oakland",
+                              "href": "#",
+                            },
+                            "ref": null,
+                            "rendered": "Oakland",
+                            "type": "a",
+                          },
+                          "type": "li",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <a
+                              href="#"
+                            >
+                              Toronto
+                            </a>,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Toronto",
+                              "href": "#",
+                            },
+                            "ref": null,
+                            "rendered": "Toronto",
+                            "type": "a",
+                          },
+                          "type": "li",
+                        },
+                      ],
+                      "type": "ul",
+                    },
+                  ],
+                  "type": "li",
+                },
+              ],
+              "type": "ul",
+            },
+            "type": "nav",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="header-mobile"
+            id="header-mobile"
+            style={
+              Object {
+                "display": "none",
+              }
+            }
+          >
+            <div
+              className="logo"
+            >
+              HUGE
+            </div>
+            <a
+              className="close-icon"
+              href="javascript:void(0);"
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-times"
+              />
+            </a>
+          </div>,
+          <div
+            className="header"
+            id="mySidebar"
+          >
+            <div
+              className="logo"
+            >
+              HUGE
+            </div>
+            <nav
+              className="topnav"
+              id="nav"
+            >
+              <ul>
+                <li
+                  className="icon"
+                >
+                  <a
+                    href="javascript:void(0);"
+                    onClick={[Function]}
+                  >
+                    <i
+                      className="fa fa-bars"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="nav-menu"
+                    href="#home"
+                  >
+                    Work
+                  </a>
+                </li>
+                <li
+                  className="dropdown"
+                >
+                  <a
+                    href="#home"
+                  >
+                    About
+                  </a>
+                  <ul
+                    className="subnav"
+                  >
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        What we do
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        How we work
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Leadership
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li
+                  className="dropdown"
+                >
+                  <a
+                    href="#home"
+                  >
+                    Carrers
+                  </a>
+                  <ul
+                    className="subnav"
+                  >
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Client Services
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Creative
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Motion & Media
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Operations
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        People
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Strategy
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Technology
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        UX & Product Design
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li
+                  className="dropdown"
+                >
+                  <a
+                    href="#home"
+                  >
+                    Ideas
+                  </a>
+                  <ul
+                    className="subnav"
+                  >
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Reports
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Perspectives
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Books
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Videos
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a
+                    href="#home"
+                  >
+                    News
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#home"
+                  >
+                    Events
+                  </a>
+                </li>
+                <li
+                  className="dropdown"
+                >
+                  <a
+                    href="#home"
+                  >
+                    Contacts
+                  </a>
+                  <ul
+                    className="subnav"
+                  >
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Atlanta
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Brooklyn
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        DC
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        London
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Los Angeles
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Oakland
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                      >
+                        Toronto
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="logo"
+              >
+                HUGE
+              </div>,
+              <a
+                className="close-icon"
+                href="javascript:void(0);"
+                onClick={[Function]}
+              >
+                <i
+                  className="fa fa-times"
+                />
+              </a>,
+            ],
+            "className": "header-mobile",
+            "id": "header-mobile",
+            "style": Object {
+              "display": "none",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "HUGE",
+                "className": "logo",
+              },
+              "ref": null,
+              "rendered": "HUGE",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <i
+                  className="fa fa-times"
+                />,
+                "className": "close-icon",
+                "href": "javascript:void(0);",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fa fa-times",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+              "type": "a",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="logo"
+              >
+                HUGE
+              </div>,
+              <nav
+                className="topnav"
+                id="nav"
+              >
+                <ul>
+                  <li
+                    className="icon"
+                  >
+                    <a
+                      href="javascript:void(0);"
+                      onClick={[Function]}
+                    >
+                      <i
+                        className="fa fa-bars"
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="nav-menu"
+                      href="#home"
+                    >
+                      Work
+                    </a>
+                  </li>
+                  <li
+                    className="dropdown"
+                  >
+                    <a
+                      href="#home"
+                    >
+                      About
+                    </a>
+                    <ul
+                      className="subnav"
+                    >
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          What we do
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          How we work
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Leadership
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li
+                    className="dropdown"
+                  >
+                    <a
+                      href="#home"
+                    >
+                      Carrers
+                    </a>
+                    <ul
+                      className="subnav"
+                    >
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Client Services
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Creative
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Motion & Media
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Operations
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          People
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Strategy
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Technology
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          UX & Product Design
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li
+                    className="dropdown"
+                  >
+                    <a
+                      href="#home"
+                    >
+                      Ideas
+                    </a>
+                    <ul
+                      className="subnav"
+                    >
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Reports
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Perspectives
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Books
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Videos
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a
+                      href="#home"
+                    >
+                      News
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#home"
+                    >
+                      Events
+                    </a>
+                  </li>
+                  <li
+                    className="dropdown"
+                  >
+                    <a
+                      href="#home"
+                    >
+                      Contacts
+                    </a>
+                    <ul
+                      className="subnav"
+                    >
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Atlanta
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Brooklyn
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          DC
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          London
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Los Angeles
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Oakland
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Toronto
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>,
+            ],
+            "className": "header",
+            "id": "mySidebar",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "HUGE",
+                "className": "logo",
+              },
+              "ref": null,
+              "rendered": "HUGE",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <ul>
+                  <li
+                    className="icon"
+                  >
+                    <a
+                      href="javascript:void(0);"
+                      onClick={[Function]}
+                    >
+                      <i
+                        className="fa fa-bars"
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="nav-menu"
+                      href="#home"
+                    >
+                      Work
+                    </a>
+                  </li>
+                  <li
+                    className="dropdown"
+                  >
+                    <a
+                      href="#home"
+                    >
+                      About
+                    </a>
+                    <ul
+                      className="subnav"
+                    >
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          What we do
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          How we work
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Leadership
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li
+                    className="dropdown"
+                  >
+                    <a
+                      href="#home"
+                    >
+                      Carrers
+                    </a>
+                    <ul
+                      className="subnav"
+                    >
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Client Services
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Creative
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Motion & Media
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Operations
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          People
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Strategy
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Technology
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          UX & Product Design
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li
+                    className="dropdown"
+                  >
+                    <a
+                      href="#home"
+                    >
+                      Ideas
+                    </a>
+                    <ul
+                      className="subnav"
+                    >
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Reports
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Perspectives
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Books
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Videos
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a
+                      href="#home"
+                    >
+                      News
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#home"
+                    >
+                      Events
+                    </a>
+                  </li>
+                  <li
+                    className="dropdown"
+                  >
+                    <a
+                      href="#home"
+                    >
+                      Contacts
+                    </a>
+                    <ul
+                      className="subnav"
+                    >
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Atlanta
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Brooklyn
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          DC
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          London
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Los Angeles
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Oakland
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                        >
+                          Toronto
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>,
+                "className": "topnav",
+                "id": "nav",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <li
+                      className="icon"
+                    >
+                      <a
+                        href="javascript:void(0);"
+                        onClick={[Function]}
+                      >
+                        <i
+                          className="fa fa-bars"
+                        />
+                      </a>
+                    </li>,
+                    <li>
+                      <a
+                        className="nav-menu"
+                        href="#home"
+                      >
+                        Work
+                      </a>
+                    </li>,
+                    <li
+                      className="dropdown"
+                    >
+                      <a
+                        href="#home"
+                      >
+                        About
+                      </a>
+                      <ul
+                        className="subnav"
+                      >
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            What we do
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            How we work
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Leadership
+                          </a>
+                        </li>
+                      </ul>
+                    </li>,
+                    <li
+                      className="dropdown"
+                    >
+                      <a
+                        href="#home"
+                      >
+                        Carrers
+                      </a>
+                      <ul
+                        className="subnav"
+                      >
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Client Services
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Creative
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Motion & Media
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Operations
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            People
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Strategy
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Technology
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            UX & Product Design
+                          </a>
+                        </li>
+                      </ul>
+                    </li>,
+                    <li
+                      className="dropdown"
+                    >
+                      <a
+                        href="#home"
+                      >
+                        Ideas
+                      </a>
+                      <ul
+                        className="subnav"
+                      >
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Reports
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Perspectives
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Books
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Videos
+                          </a>
+                        </li>
+                      </ul>
+                    </li>,
+                    <li>
+                      <a
+                        href="#home"
+                      >
+                        News
+                      </a>
+                    </li>,
+                    <li>
+                      <a
+                        href="#home"
+                      >
+                        Events
+                      </a>
+                    </li>,
+                    <li
+                      className="dropdown"
+                    >
+                      <a
+                        href="#home"
+                      >
+                        Contacts
+                      </a>
+                      <ul
+                        className="subnav"
+                      >
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Atlanta
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Brooklyn
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            DC
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            London
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Los Angeles
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Oakland
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                          >
+                            Toronto
+                          </a>
+                        </li>
+                      </ul>
+                    </li>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        href="javascript:void(0);"
+                        onClick={[Function]}
+                      >
+                        <i
+                          className="fa fa-bars"
+                        />
+                      </a>,
+                      "className": "icon",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <i
+                          className="fa fa-bars"
+                        />,
+                        "href": "javascript:void(0);",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "fa fa-bars",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "i",
+                      },
+                      "type": "a",
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        className="nav-menu"
+                        href="#home"
+                      >
+                        Work
+                      </a>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Work",
+                        "className": "nav-menu",
+                        "href": "#home",
+                      },
+                      "ref": null,
+                      "rendered": "Work",
+                      "type": "a",
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <a
+                          href="#home"
+                        >
+                          About
+                        </a>,
+                        <ul
+                          className="subnav"
+                        >
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              What we do
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              How we work
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Leadership
+                            </a>
+                          </li>
+                        </ul>,
+                      ],
+                      "className": "dropdown",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "About",
+                          "href": "#home",
+                        },
+                        "ref": null,
+                        "rendered": "About",
+                        "type": "a",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <li>
+                              <a
+                                href="#"
+                              >
+                                What we do
+                              </a>
+                            </li>,
+                            <li>
+                              <a
+                                href="#"
+                              >
+                                How we work
+                              </a>
+                            </li>,
+                            <li>
+                              <a
+                                href="#"
+                              >
+                                Leadership
+                              </a>
+                            </li>,
+                          ],
+                          "className": "subnav",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <a
+                                href="#"
+                              >
+                                What we do
+                              </a>,
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "What we do",
+                                "href": "#",
+                              },
+                              "ref": null,
+                              "rendered": "What we do",
+                              "type": "a",
+                            },
+                            "type": "li",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <a
+                                href="#"
+                              >
+                                How we work
+                              </a>,
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "How we work",
+                                "href": "#",
+                              },
+                              "ref": null,
+                              "rendered": "How we work",
+                              "type": "a",
+                            },
+                            "type": "li",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <a
+                                href="#"
+                              >
+                                Leadership
+                              </a>,
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Leadership",
+                                "href": "#",
+                              },
+                              "ref": null,
+                              "rendered": "Leadership",
+                              "type": "a",
+                            },
+                            "type": "li",
+                          },
+                        ],
+                        "type": "ul",
+                      },
+                    ],
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <a
+                          href="#home"
+                        >
+                          Carrers
+                        </a>,
+                        <ul
+                          className="subnav"
+                        >
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Client Services
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Creative
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Motion & Media
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Operations
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              People
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Strategy
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Technology
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              UX & Product Design
+                            </a>
+                          </li>
+                        </ul>,
+                      ],
+                      "className": "dropdown",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Carrers",
+                          "href": "#home",
+                        },
+                        "ref": null,
+                        "rendered": "Carrers",
+                        "type": "a",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <li>
+                              <a
+                                href="#"
+                              >
+                                Client Services
+                              </a>
+                            </li>,
+                            <li>
+                              <a
+                                href="#"
+                              >
+                                Creative
+                              </a>
+                            </li>,
+                            <li>
+                              <a
+                                href="#"
+                              >
+                                Motion & Media
+                              </a>
+                            </li>,
+                            <li>
+                              <a
+                                href="#"
+                              >
+                                Operations
+                              </a>
+                            </li>,
+                            <li>
+                              <a
+                                href="#"
+                              >
+                                People
+                              </a>
+                            </li>,
+                            <li>
+                              <a
+                                href="#"
+                              >
+                                Strategy
+                              </a>
+                            </li>,
+                            <li>
+                              <a
+                                href="#"
+                              >
+                                Technology
+                              </a>
+                            </li>,
+                            <li>
+                              <a
+                                href="#"
+                              >
+                                UX & Product Design
+                              </a>
+                            </li>,
+                          ],
+                          "className": "subnav",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <a
+                                href="#"
+                              >
+                                Client Services
+                              </a>,
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Client Services",
+                                "href": "#",
+                              },
+                              "ref": null,
+                              "rendered": "Client Services",
+                              "type": "a",
+                            },
+                            "type": "li",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <a
+                                href="#"
+                              >
+                                Creative
+                              </a>,
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Creative",
+                                "href": "#",
+                              },
+                              "ref": null,
+                              "rendered": "Creative",
+                              "type": "a",
+                            },
+                            "type": "li",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <a
+                                href="#"
+                              >
+                                Motion & Media
+                              </a>,
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Motion & Media",
+                                "href": "#",
+                              },
+                              "ref": null,
+                              "rendered": "Motion & Media",
+                              "type": "a",
+                            },
+                            "type": "li",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <a
+                                href="#"
+                              >
+                                Operations
+                              </a>,
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Operations",
+                                "href": "#",
+                              },
+                              "ref": null,
+                              "rendered": "Operations",
+                              "type": "a",
+                            },
+                            "type": "li",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <a
+                                href="#"
+                              >
+                                People
+                              </a>,
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "People",
+                                "href": "#",
+                              },
+                              "ref": null,
+                              "rendered": "People",
+                              "type": "a",
+                            },
+                            "type": "li",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <a
+                                href="#"
+                              >
+                                Strategy
+                              </a>,
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Strategy",
+                                "href": "#",
+                              },
+                              "ref": null,
+                              "rendered": "Strategy",
+                              "type": "a",
+                            },
+                            "type": "li",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <a
+                                href="#"
+                              >
+                                Technology
+                              </a>,
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Technology",
+                                "href": "#",
+                              },
+                              "ref": null,
+                              "rendered": "Technology",
+                              "type": "a",
+                            },
+                            "type": "li",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <a
+                                href="#"
+                              >
+                                UX & Product Design
+                              </a>,
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "UX & Product Design",
+                                "href": "#",
+                              },
+                              "ref": null,
+                              "rendered": "UX & Product Design",
+                              "type": "a",
+                            },
+                            "type": "li",
+                          },
+                        ],
+                        "type": "ul",
+                      },
+                    ],
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <a
+                          href="#home"
+                        >
+                          Ideas
+                        </a>,
+                        <ul
+                          className="subnav"
+                        >
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Reports
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Perspectives
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Books
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Videos
+                            </a>
+                          </li>
+                        </ul>,
+                      ],
+                      "className": "dropdown",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Ideas",
+                          "href": "#home",
+                        },
+                        "ref": null,
+                        "rendered": "Ideas",
+                        "type": "a",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <li>
+                              <a
+                                href="#"
+                              >
+                                Reports
+                              </a>
+                            </li>,
+                            <li>
+                              <a
+                                href="#"
+                              >
+                                Perspectives
+                              </a>
+                            </li>,
+                            <li>
+                              <a
+                                href="#"
+                              >
+                                Books
+                              </a>
+                            </li>,
+                            <li>
+                              <a
+                                href="#"
+                              >
+                                Videos
+                              </a>
+                            </li>,
+                          ],
+                          "className": "subnav",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <a
+                                href="#"
+                              >
+                                Reports
+                              </a>,
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Reports",
+                                "href": "#",
+                              },
+                              "ref": null,
+                              "rendered": "Reports",
+                              "type": "a",
+                            },
+                            "type": "li",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <a
+                                href="#"
+                              >
+                                Perspectives
+                              </a>,
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Perspectives",
+                                "href": "#",
+                              },
+                              "ref": null,
+                              "rendered": "Perspectives",
+                              "type": "a",
+                            },
+                            "type": "li",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <a
+                                href="#"
+                              >
+                                Books
+                              </a>,
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Books",
+                                "href": "#",
+                              },
+                              "ref": null,
+                              "rendered": "Books",
+                              "type": "a",
+                            },
+                            "type": "li",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <a
+                                href="#"
+                              >
+                                Videos
+                              </a>,
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Videos",
+                                "href": "#",
+                              },
+                              "ref": null,
+                              "rendered": "Videos",
+                              "type": "a",
+                            },
+                            "type": "li",
+                          },
+                        ],
+                        "type": "ul",
+                      },
+                    ],
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        href="#home"
+                      >
+                        News
+                      </a>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "News",
+                        "href": "#home",
+                      },
+                      "ref": null,
+                      "rendered": "News",
+                      "type": "a",
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        href="#home"
+                      >
+                        Events
+                      </a>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Events",
+                        "href": "#home",
+                      },
+                      "ref": null,
+                      "rendered": "Events",
+                      "type": "a",
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <a
+                          href="#home"
+                        >
+                          Contacts
+                        </a>,
+                        <ul
+                          className="subnav"
+                        >
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Atlanta
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Brooklyn
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              DC
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              London
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Los Angeles
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Oakland
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="#"
+                            >
+                              Toronto
+                            </a>
+                          </li>
+                        </ul>,
+                      ],
+                      "className": "dropdown",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Contacts",
+                          "href": "#home",
+                        },
+                        "ref": null,
+                        "rendered": "Contacts",
+                        "type": "a",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <li>
+                              <a
+                                href="#"
+                              >
+                                Atlanta
+                              </a>
+                            </li>,
+                            <li>
+                              <a
+                                href="#"
+                              >
+                                Brooklyn
+                              </a>
+                            </li>,
+                            <li>
+                              <a
+                                href="#"
+                              >
+                                DC
+                              </a>
+                            </li>,
+                            <li>
+                              <a
+                                href="#"
+                              >
+                                London
+                              </a>
+                            </li>,
+                            <li>
+                              <a
+                                href="#"
+                              >
+                                Los Angeles
+                              </a>
+                            </li>,
+                            <li>
+                              <a
+                                href="#"
+                              >
+                                Oakland
+                              </a>
+                            </li>,
+                            <li>
+                              <a
+                                href="#"
+                              >
+                                Toronto
+                              </a>
+                            </li>,
+                          ],
+                          "className": "subnav",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <a
+                                href="#"
+                              >
+                                Atlanta
+                              </a>,
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Atlanta",
+                                "href": "#",
+                              },
+                              "ref": null,
+                              "rendered": "Atlanta",
+                              "type": "a",
+                            },
+                            "type": "li",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <a
+                                href="#"
+                              >
+                                Brooklyn
+                              </a>,
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Brooklyn",
+                                "href": "#",
+                              },
+                              "ref": null,
+                              "rendered": "Brooklyn",
+                              "type": "a",
+                            },
+                            "type": "li",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <a
+                                href="#"
+                              >
+                                DC
+                              </a>,
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "DC",
+                                "href": "#",
+                              },
+                              "ref": null,
+                              "rendered": "DC",
+                              "type": "a",
+                            },
+                            "type": "li",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <a
+                                href="#"
+                              >
+                                London
+                              </a>,
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "London",
+                                "href": "#",
+                              },
+                              "ref": null,
+                              "rendered": "London",
+                              "type": "a",
+                            },
+                            "type": "li",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <a
+                                href="#"
+                              >
+                                Los Angeles
+                              </a>,
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Los Angeles",
+                                "href": "#",
+                              },
+                              "ref": null,
+                              "rendered": "Los Angeles",
+                              "type": "a",
+                            },
+                            "type": "li",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <a
+                                href="#"
+                              >
+                                Oakland
+                              </a>,
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Oakland",
+                                "href": "#",
+                              },
+                              "ref": null,
+                              "rendered": "Oakland",
+                              "type": "a",
+                            },
+                            "type": "li",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <a
+                                href="#"
+                              >
+                                Toronto
+                              </a>,
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Toronto",
+                                "href": "#",
+                              },
+                              "ref": null,
+                              "rendered": "Toronto",
+                              "type": "a",
+                            },
+                            "type": "li",
+                          },
+                        ],
+                        "type": "ul",
+                      },
+                    ],
+                    "type": "li",
+                  },
+                ],
+                "type": "ul",
+              },
+              "type": "nav",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
